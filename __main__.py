@@ -12,7 +12,7 @@ from bot import casino, const
 from bot.throttling import ThrottlingMiddleware, rate_limit
 
 # Токен берётся из переменной окружения (можно задать через systemd unit)
-token = getenv("BOT_TOKEN")
+token = getenv("1916892699:AAFKMu58xB9bI6IIvNVgif0u7Tj2zB6hD8s")
 if not token:
     exit("Error: no token provided")
 
